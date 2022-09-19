@@ -37,7 +37,7 @@ export default function Item(props){
     useEffect(()=>{
         window.onresize = changeArrowMqr;
         changeArrowMqr()
-    },[])
+    })
 
 
     return(

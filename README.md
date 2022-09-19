@@ -27,8 +27,8 @@ A lista é salva automaticamente no LocalStorage, podendo sair do site que não 
 3 - Através do menu dos itens pode-se mover a tarefa entre as listas.
 <br>
 <a href="#">Teste a aplicação<a>
-<img src="./kanban_mob.png">
-<img src="./kanban_web.png" width="300">
+<img src="./kanban_web.png">
+<img src="./kanban_mob.png" width="300">
 
 
 
