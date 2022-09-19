@@ -1,0 +1,56 @@
+#js-modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#js-modal #js-modal-background {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.637);
+}
+#js-modal #window {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 300px;
+  min-height: 200px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+#js-modal #window textarea {
+  max-width: 98%;
+  min-width: 98%;
+  max-height: 200px;
+  min-height: 20%;
+}
+#js-modal #window #js-modal-cancel {
+  cursor: pointer;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -10px;
+  right: -10px;
+  background-color: #E23030;
+  border-radius: 50px;
+  transition: all ease-in-out 0.3s;
+}
+#js-modal #window #js-modal-cancel:hover {
+  transform: scale(1.2);
+}
+#js-modal #window div .color {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  transition: all ease-in-out 0.3s;
+}
+#js-modal #window div .color:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=modal.css.map */
